@@ -19,3 +19,4 @@ Available modes price scale can operate in:
 * `0` - normal mode of the price scale
 * `1` - logarithmic mode of the price scale
 * `2` - percentage mode of the price scale
+* `3` - indexed to 100 mode of the price scale
