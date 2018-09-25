@@ -426,6 +426,7 @@ API object methods:
 * `remove()`: Removes the position from the chart. You can’t this API-object after the call.
 * `onModify(callback)` / `onModify(data, callback)`
 * `onMove(callback)` / `onMove(data, callback)`
+* `onCancel(callback)` / `onCancel(data, callback)`
 
 API object has a set of properties listed below. Each property should be used through respective accessors.
 For example, if you wish to work with the `Extend Left` property, then use `getExtendLeft()` of `setExtendLeft()` methods.
