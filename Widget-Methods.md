@@ -150,7 +150,7 @@ widget.onShortcut("alt+s", function() {
 | `study` | 1.7 | An indicator is added to a chart.The arguments contain an object with the `value` field that corresponds with the name of the indicator. |
 | `undo` | 1.7 | |
 | `redo` | 1.7 | |
-| `undoRedoStackChanged` | 1.14 | Undo or redo state has changed. The arguments contain an object of the same structure as (#undoredostate) method |
+| `undoRedoStackChanged` | 1.14 | Undo or redo state has changed. The arguments contain an object of the same structure as [undoredostate](Widget-Methods#undoredostate) method |
 | `reset_scales` | 1.7 | Reset scales button is clicked |
 | `compare_add` | 1.7 | A compare dialog is shown |
 | `add_compare` | 1.7 | A compare instrument is added |
