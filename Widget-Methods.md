@@ -410,6 +410,16 @@ Returns an array of supported resolutions. This was introduced in version 1.7.
 
 Returns an array of IDs of all studies. They can be used to create a study.
 
+### undoRedoState()
+
+Returns a structure describing current undo/redo stacks' states.
+: object:
+
+    * `enableUndo`: boolean flag, true if undo action is available
+    * `undoText`: name to the available undo operation, or undefined is there is no one.
+    * `enableRedo`: boolean flag, true if redo action is available
+    * `redoText`: name to the available redo operation, or undefined is there is no one.
+
 ## Customization
 
 ### changeTheme(themeName)
