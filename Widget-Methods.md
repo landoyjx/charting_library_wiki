@@ -50,6 +50,7 @@ widget.onChartReady(function() {
   * [mainSeriesPriceFormatter()](#mainseriespriceformatter)
   * [getIntervals()](#getintervals)
   * [getStudiesList()](#getstudieslist)
+  * [undoRedoState()](#undoredostate)
 * [Customization](#customization)
   * [changeTheme(themeName)](#changethemethemename)
   * [addCustomCSSFile(url)](#addcustomcssfileurl)
@@ -63,6 +64,7 @@ widget.onChartReady(function() {
   * [chartsCount()](#chart-chartscount)
   * [layout()](#chart-layout)
   * [setLayout(layout)](#chart-setlayoutlayout)
+  * [layoutName()](#chart-layoutName)
 
 ## Subscribing To Chart Events
 
@@ -150,7 +152,7 @@ widget.onShortcut("alt+s", function() {
 | `study` | 1.7 | An indicator is added to a chart.The arguments contain an object with the `value` field that corresponds with the name of the indicator. |
 | `undo` | 1.7 | |
 | `redo` | 1.7 | |
-| `undoRedoStackChanged` | 1.14 | Undo or redo state has changed. The arguments contain an object of the same structure as [undoredostate](Widget-Methods#undoredostate) method |
+| `undoRedoStackChanged` | 1.14 | The Undo/Redo state has been changed. The arguments contain an object with the state of the Undo/Redo stack. This object has the same structure as the result of [UndoRedoState](Widget-Methods#undoredostate) method |
 | `reset_scales` | 1.7 | Reset scales button is clicked |
 | `compare_add` | 1.7 | A compare dialog is shown |
 | `add_compare` | 1.7 | A compare instrument is added |
@@ -412,13 +414,12 @@ Returns an array of IDs of all studies. They can be used to create a study.
 
 ### undoRedoState()
 
-Returns a structure describing current undo/redo stacks' states.
-: object:
+Returns an object with the state of the Undo/Redo stack. The object has the following keys:
 
-    * `enableUndo`: boolean flag, true if undo action is available
-    * `undoText`: name to the available undo operation, or undefined is there is no one.
-    * `enableRedo`: boolean flag, true if redo action is available
-    * `redoText`: name to the available redo operation, or undefined is there is no one.
+    * `enableUndo`: boolean flag that shows the undo action availability
+    * `undoText`: name of the next undo operation. If the undo stack is empty then it is undefined.
+    * `enableRedo`: boolean flag that shows the redo action availability
+    * `redoText`: name of the next redo operation. If the redo stack is empty then it is undefined.
 
 ## Customization
 
@@ -530,6 +531,10 @@ Returns the current layout mode. Possible values are: `4`, `6`, `8`, `s`, `2h`, 
 1. `layout`: Possible values are: `4`, `6`, `8`, `s`, `2h`, `2-1`, `2v`, `3h`, `3v`, `3s`.
 
 Changes the current chart layout.
+
+### :chart: layoutName()
+
+Returns the current layout name. If the current layout has not yet been saved then it returns undefined.
 
 ## See Also
 
