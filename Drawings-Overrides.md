@@ -55,6 +55,30 @@ linetooltrendline: {
     showDistance:false,
     showAngle: false
 },
+linetoolinfoline: {
+    clonable: true,
+    linecolor: 'rgba( 21, 153, 128, 1)',
+    linewidth: 1.0,
+    linestyle: CanvasEx.LINESTYLE_SOLID,
+    extendLeft: false,
+    extendRight: false,
+    leftEnd: LineEnd.Normal,
+    rightEnd: LineEnd.Normal,
+    font: 'Verdana',
+    textcolor: 'rgba( 21, 119, 96, 1)',
+    fontsize: 12,
+    bold: false,
+    italic: false,
+    snapTo45Degrees: true,
+    alwaysShowStats: true,
+    showMiddlePoint: false,
+    showPriceRange: true,
+    showBarsRange: true,
+    showDateTimeRange: true,
+    showDistance: true,
+    showAngle: true,
+    statsPosition: 1,
+},
 linetooltimecycles: {
     linecolor: 'rgba(21, 153, 128, 1)',
     linewidth: 1.0,
@@ -305,6 +329,14 @@ linetoolvertline: {
     linecolor: 'rgba( 128, 204, 219, 1)',
     linewidth: 1.0,
     linestyle: LINESTYLE_SOLID,
+    showTime: true
+},
+linetoolcrossline: {
+    clonable: true,
+    linecolor: 'rgba(6, 160, 227, 1)',
+    linewidth: 1.0,
+    linestyle: CanvasEx.LINESTYLE_SOLID,
+    showPrice: true,
     showTime: true
 },
 linetoolcirclelines: {
