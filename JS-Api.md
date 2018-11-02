@@ -320,8 +320,8 @@ Trading Terminal calls this function when it doesn't want to receive updates for
 1. `callback`: function(depth)
     1. `depth`: object `{snapshot, asks, bids}`
         * `snapshot`: Boolean - if `true` `asks` and `bids` have full set of depth, otherwise they contain only updated levels.
-        * `asks`: Array of `{price, volume}`
-        * `bids`: Array of `{price, volume}`
+        * `asks`: Array of `{price, volume}` (must be sorted by `price` in asc order)
+        * `bids`: Array of `{price, volume}` (must be sorted by `price` in asc order)
 
 Trading Terminal calls this function when it wants to receive real-time level 2 (DOM) for a symbol. The Charting Library assumes that you will call the `callback` every time you want to update DOM data.
 
