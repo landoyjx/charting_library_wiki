@@ -90,6 +90,7 @@ Please note that the leading `-` characters are not part of the featureset name 
 | high_density_bars             | off   |   1.11          | Allows zooming out to show more than 60000 bars on a single screen
 | cl_feed_return_all_data       | off   |   1.11          | Allows you to return more bars from the data feed than requested and displays it on a chart simultaneously
 | uppercase_instrument_names    | on    | 1.12            | Disabling this feature allows a user to enter case-sensitive symbols
+| no_min_chart_width            | off   | 1.15            | Disables minimum chart width limitation
 
 ### "Important features"
 
