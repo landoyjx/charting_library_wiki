@@ -40,6 +40,7 @@ paneProperties.legendProperties.showStudyValues: true
 paneProperties.legendProperties.showSeriesTitle: true
 paneProperties.legendProperties.showSeriesOHLC: true
 paneProperties.legendProperties.showLegend: true
+paneProperties.legendProperties.showBarChange: true
 
 scalesProperties.showLeftScale : false
 scalesProperties.showRightScale : true
