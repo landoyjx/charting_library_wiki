@@ -174,13 +174,10 @@ The array containing names of features that should be enabled/disabled by defaul
 Example:
 
 ```javascript
-TradingView.onready(function()
-{
-    var widget = new TradingView.widget({
-        /* .... */
-        disabled_features: ["header_widget", "left_toolbar"],
-        enabled_features: ["move_logo_to_main_pane"]
-    });
+var widget = new TradingView.widget({
+    /* .... */
+    disabled_features: ["header_widget", "left_toolbar"],
+    enabled_features: ["move_logo_to_main_pane"]
 });
 ```
 
