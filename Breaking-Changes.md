@@ -10,6 +10,7 @@ Here is the list of breaking changes:
 
 - [createButton](Widget-Methods#createButtonoptions) returns `HTMLElement` instead of `JQuery`.
 - [createButton](Widget-Methods#createButtonoptions) must be used after [headerReady()](Widget-Methods#headerready) `Promise` is resolved.
+- [getVisibleRange](Chart-Methods#getVisibleRange) returns `{from, to}` in the UTC timezone (it was a timezone selected on a chart before).
 - Method `onready` was removed. You can use `window.addEventListener('DOMContentLoaded', callback, false)` instead.
 
 **TypeScript type definitions**

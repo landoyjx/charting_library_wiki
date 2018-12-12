@@ -648,7 +648,7 @@ Returns the chart's time interval. The format is described in this [article](Res
 
 ### getVisibleRange()
 
-Returns the object `{from, to}`. `from` and `to` are Unix timestamps **in the timezone of the chart**.
+Returns the object `{from, to}`. `from` and `to` are Unix timestamps in the UTC timezone.
 
 ### getVisiblePriceRange()
 
