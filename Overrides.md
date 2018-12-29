@@ -41,6 +41,7 @@ paneProperties.legendProperties.showSeriesTitle: true
 paneProperties.legendProperties.showSeriesOHLC: true
 paneProperties.legendProperties.showLegend: true
 paneProperties.legendProperties.showBarChange: true
+paneProperties.legendProperties.showOnlyPriceSource: true
 
 scalesProperties.showLeftScale : false
 scalesProperties.showRightScale : true
