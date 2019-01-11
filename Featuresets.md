@@ -114,3 +114,4 @@ Please note that the leading `-` characters are not part of the featureset name 
 | trading_notifications | on | 1.11 | Shows trading notifications on the chart
 | multiple_watchlists | on | 1.12 | Enables creating of multiple watchlists
 | show_trading_notifications_history | on | 1.13 | Enables the Notifications Log tab in the bottom panel
+| fix_left_edge | off | 1.14 | Prevents scrolling to the left of the first historical bar
