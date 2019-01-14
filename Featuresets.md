@@ -90,7 +90,8 @@ Please note that the leading `-` characters are not part of the featureset name 
 | high_density_bars             | off   |   1.11          | Allows zooming out to show more than 60000 bars on a single screen
 | cl_feed_return_all_data       | off   |   1.11          | Allows you to return more bars from the data feed than requested and displays it on a chart simultaneously
 | uppercase_instrument_names    | on    | 1.12            | Disabling this feature allows a user to enter case-sensitive symbols
-| no_min_chart_width            | off   | 1.15            | Disables minimum chart width limitation
+| no_min_chart_width            | off   | 1.14            | Disables minimum chart width limitation
+| fix_left_edge                 | off   | 1.14            | Prevents scrolling to the left of the first historical bar
 
 ### "Important features"
 
@@ -114,4 +115,3 @@ Please note that the leading `-` characters are not part of the featureset name 
 | trading_notifications | on | 1.11 | Shows trading notifications on the chart
 | multiple_watchlists | on | 1.12 | Enables creating of multiple watchlists
 | show_trading_notifications_history | on | 1.13 | Enables the Notifications Log tab in the bottom panel
-| fix_left_edge | off | 1.14 | Prevents scrolling to the left of the first historical bar
