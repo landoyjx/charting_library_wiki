@@ -92,6 +92,7 @@ Please note that the leading `-` characters are not part of the featureset name 
 | uppercase_instrument_names    | on    | 1.12            | Disabling this feature allows a user to enter case-sensitive symbols
 | no_min_chart_width            | off   | 1.14            | Disables minimum chart width limitation
 | fix_left_edge                 | off   | 1.14            | Prevents scrolling to the left of the first historical bar
+| lock_visible_time_range_on_resize | off   | 1.14        | Prevents changing visible time area on chart resizing
 
 ### "Important features"
 
