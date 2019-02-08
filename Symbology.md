@@ -105,6 +105,7 @@ Timezone of the exchange for this symbol. We expect to get the name of the time 
 - `Australia/ACT`
 - `Australia/Adelaide`
 - `Australia/Brisbane`
+- `Australia/Perth`
 - `Australia/Sydney`
 - `Europe/Athens`
 - `Europe/Belgrade`
@@ -116,6 +117,7 @@ Timezone of the exchange for this symbol. We expect to get the name of the time 
 - `Europe/Luxembourg`
 - `Europe/Madrid`
 - `Europe/Moscow`
+- `Europe/Oslo`
 - `Europe/Paris`
 - `Europe/Riga`
 - `Europe/Rome`
