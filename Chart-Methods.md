@@ -247,6 +247,18 @@ widget.activeChart().setTimezone('Asia/Singapore');
 
 Makes the chart change its timezone.
 
+### canZoomOut()
+
+*Since version 1.14.*
+
+When you call this method, the Library checks if there are any zoom events to undone.
+
+### zoomOut()
+
+*Since version 1.14.*
+
+When you call this method, it simulates a click on the "Zoom Out" button. It works only if the chart is zoomed. Use `canZoomOut` to check if you can call this method.
+
 ## Studies And Shapes
 
 ### getAllShapes()
