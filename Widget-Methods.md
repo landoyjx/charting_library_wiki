@@ -163,6 +163,7 @@ widget.onShortcut("alt+s", function() {
 | `onMarkClick` | | User clicked a [mark on a bar](Marks-On-Bars). Mark ID will be passed as an argument |
 | `onTimescaleMarkClick` | | User clicked a timescale mark. Mark ID will be passed as an argument |
 | `onSelectedLineToolChanged` | | Selected line tool is changed |
+| `study_properties_changed` | 1.14 | Study properties are changed. Entity ID will be passed as an argument |
 | :chart: `layout_about_to_be_changed` | | Amount or placement of the charts is about to be changed |
 | :chart: `layout_changed` | | Amount or placement of the charts is changed |
 | :chart: `activeChartChanged` | | Active chart is changed |
